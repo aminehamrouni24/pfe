@@ -1,0 +1,29 @@
+.Attendance {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 8%;
+    border-radius: 50%;
+   
+  }
+
+
+  .Attendance th,.Attendance td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  
+  }
+  .Attendance th {
+    text-align: left;
+    background-color: #ffffff;
+   
+  }
+  .tablee th {
+    text-align: left;
+    background-color: #ffffff;
+   
+  }
+  #pro{
+    background-image:linear-gradient(80deg, rgba(5,124,172), rgb(198, 63, 90)) ;
+    height:100vh;
+  }

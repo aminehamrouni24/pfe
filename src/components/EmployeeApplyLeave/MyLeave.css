@@ -1,0 +1,19 @@
+
+
+.leave-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .leave-table th,
+.leave-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.leave-table th {
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  .gg{
+    background-color: #fff;
+  }
+  

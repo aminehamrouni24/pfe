@@ -1,0 +1,77 @@
+.pp{
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh;
+    background-image:linear-gradient(80deg, rgba(5,124,172), rgb(198, 63, 90)) ;
+}
+.con{
+min-height: 60vh;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+max-width: 900px;
+width:600%;
+border-radius:6%;
+padding: 30px;
+margin: 0 15px;
+background-color: #fff;
+box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+.header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+}
+.input-fiel{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.eya input:is(:focus,:valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.eya textarea:is(:focus,:valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);}
+.eya select{ outline: none;
+    border-radius: 5px;
+    border:1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;}
+label{
+    font-size: 12px;
+    font-weight: 500;
+    color:#2e2e2e;
+}
+.eya{
+    display: flex;
+    flex-direction: column;
+}
+#hh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+    border:none;
+    outline:none;
+    color: #fff;
+    border-radius: 5%;
+    background-color:rgba(5,124,172) ;
+    transition: all 0.3s linear;
+    cursor:pointer;
+   
+}
+#hh:hover{
+    background-color: #174feb;
+}

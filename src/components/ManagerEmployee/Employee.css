@@ -1,0 +1,10 @@
+.portlet-body .mdb-datatable .justify-content-between {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.portlet-body .mdb-datatable .justify-content-between .mr-3 {
+    transform: translateX(-318px);
+}
+.portlet-body .mdb-datatable .justify-content-between .mdb-datatable-entries {
+    transform: translateX(310px);
+}

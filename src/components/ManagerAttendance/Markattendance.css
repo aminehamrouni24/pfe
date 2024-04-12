@@ -1,0 +1,38 @@
+.tablee{
+    border-collapse: collapse;
+    width: 80%;
+    margin-top:3%;
+    margin-left: 8%;
+ 
+    background-color: #fff;
+   
+}
+.tablee th,
+.tablee td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.tablee th,.tablee td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  
+  }
+  .page-container{
+    background-image:linear-gradient(80deg, rgba(5,124,172), rgb(198, 63, 90)) ;
+    height:100vh;
+  }
+  #bttn{
+   margin-top: 20px;
+    height:100%;
+    width:100%;
+    border:none;
+    outline:none;
+    color: #fff;
+    border-radius: 5%;
+    background-color:rgba(5,124,172) ;
+    transition: all 0.3s linear;
+    cursor:pointer;
+  }
+  #bttn:hover{
+    background-color: #174feb;
+  }

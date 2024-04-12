@@ -1,0 +1,28 @@
+.gigi{
+    background-image:linear-gradient(80deg, rgba(5,124,172), rgb(198, 63, 90));
+    height: 100vh;
+}
+
+.row{
+    padding-top:5%;
+   display: flex;
+    justify-content: center;
+
+}
+.card{
+    box-shadow: 5px 5px 20px black !important;
+    
+}
+.ch{
+    padding-top:40px;
+    display: flex;
+    justify-content: center;
+}
+.good{
+    
+    background-color: #fff;
+    height: 300px;
+    width:500px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 2%;
+}
